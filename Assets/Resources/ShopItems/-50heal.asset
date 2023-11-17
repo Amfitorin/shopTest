@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb5eae476c5c40d0b3de19bd1b929c0b, type: 3}
+  m_Name: -50heal
+  m_EditorClassIdentifier: 
+  _reward:
+    rid: 8306933897691136004
+  _price:
+    rid: 8306933897691136000
+  _name: -50 dam
+  references:
+    version: 2
+    RefIds:
+    - rid: 8306933897691136000
+      type: {class: StaticGold, ns: Gold, asm: Gold}
+      data:
+        _count: 3600
+    - rid: 8306933897691136004
+      type: {class: StaticDamage, ns: Health, asm: Health}
+      data:
+        _damageValue: 50
